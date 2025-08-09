@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const Signature = (props: Props) => {
+const Signature: React.FC = () => {
   return (
     <svg
       width="82"
