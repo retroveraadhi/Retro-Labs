@@ -32,38 +32,38 @@ export default function Home() {
               id="context-intro"
               className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
             >
-              Retro Labs is brewing something wondrous — line by line, spell by
+              {`Retro Labs is brewing something wondrous — line by line, spell by
               spell. The interface you seek is still forming, like a
-              constellation coming into view.
+              constellation coming into view.`}
             </p>
 
             <p
               id="context-behind-scenes"
               className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
             >
-              Behind the scenes, ethereal code is weaving its tapestry. Elements
+              {`Behind the scenes, ethereal code is weaving its tapestry. Elements
               dance in hidden layers, enchantments being stitched into every
               pixel. What appears quiet now is simply the calm before the
               interface awakens — and when it does, it will shimmer with retro
-              magic and modern brilliance alike.
+              magic and modern brilliance alike.`}
             </p>
 
             <p
               id="context-coming-soon"
               className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
             >
-              Soon, you'll step into a place where design meets delight, where
+              {`Soon, you'll step into a place where design meets delight, where
               logic and nostalgia hold hands. Until then, know this: something
-              magical is unfolding… and you’re already part of the story.
+              magical is unfolding… and you’re already part of the story.`}
             </p>
 
             <p
               id="context-code-access"
               className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
             >
-              You don’t need to wait for the magic to reveal itself fully.
+              {` You don’t need to wait for the magic to reveal itself fully.
               Because the essence, the heart, the source of it all — the code is
-              already yours to explore.
+              already yours to explore.`}
             </p>
 
             <div
