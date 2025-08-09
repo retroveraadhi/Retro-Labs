@@ -10,7 +10,7 @@ export default function Home() {
         {" "}
         <div
           id="announcement-container"
-          className="flex flex-col items-center justify-center gap-9"
+          className="flex flex-col items-center justify-center gap-1 sm:gap-9"
         >
           <div
             id="main-title-container"
@@ -18,7 +18,7 @@ export default function Home() {
           >
             <h1
               id="main-title-text"
-              className="font-poppins leading-tight bg-gradient-to-r from-[#A0A0A0]/30 via-[#373636]/70 to-[#A0A0A0]/30 bg-clip-text text-transparent text-4xl"
+              className="font-poppins leading-tight bg-gradient-to-r from-[#A0A0A0]/30 via-[#373636]/70 to-[#A0A0A0]/30 bg-clip-text text-transparent text-2xl sm:text-4xl"
             >
               Where code feels like magic.
             </h1>
@@ -26,11 +26,11 @@ export default function Home() {
 
           <div
             id="context-description-container"
-            className="flex flex-col items-center justify-center max-w-[568px] h-auto gap-[27px] text-center"
+            className="flex flex-col items-center justify-center max-w-[568px] h-auto gap-[27px] text-center p-5 sm:p-0"
           >
             <p
               id="context-intro"
-              className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
+              className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[13.5px] sm:text-[15px]"
             >
               {`Retro Labs is brewing something wondrous — line by line, spell by
               spell. The interface you seek is still forming, like a
@@ -39,7 +39,7 @@ export default function Home() {
 
             <p
               id="context-behind-scenes"
-              className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
+              className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[13.5px] sm:text-[15px]"
             >
               {`Behind the scenes, ethereal code is weaving its tapestry. Elements
               dance in hidden layers, enchantments being stitched into every
@@ -50,7 +50,7 @@ export default function Home() {
 
             <p
               id="context-coming-soon"
-              className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
+              className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[13.5px] sm:text-[15px]"
             >
               {`Soon, you'll step into a place where design meets delight, where
               logic and nostalgia hold hands. Until then, know this: something
@@ -59,7 +59,7 @@ export default function Home() {
 
             <p
               id="context-code-access"
-              className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
+              className="font-poppins bg-gradient-to-r from-[#B2B2B2]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[13.5px] sm:text-[15px]"
             >
               {` You don’t need to wait for the magic to reveal itself fully.
               Because the essence, the heart, the source of it all — the code is
@@ -77,7 +77,7 @@ export default function Home() {
                 <Signature />
                 <p
                   id="signature-title"
-                  className="font-poppins bg-gradient-to-r from-[#676767]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[15px]"
+                  className="font-poppins bg-gradient-to-r from-[#676767]/50 via-[#373636]/70 to-[#B2B2B2]/50 bg-clip-text text-transparent text-[13.5px] sm:text-[15px]"
                 >
                   Founder, Retro Labs
                 </p>
